@@ -3,8 +3,8 @@
     "baseUrl": ".",
     "outDir": "../dist/documentation",
     "strictNullChecks": true,
-    "moduleResolution": "node",
     "esModuleInterop": true,
+    "moduleResolution": "node",
     "experimentalDecorators": true,
     "jsx": "preserve",
     "noUnusedParameters": true,
@@ -51,7 +51,7 @@
   "include": [
     "next-env.d.ts",
     "next.config.mjs",
-    ".eslintrc.js",
+    "next.config.ts",
     "**/*.js",
     "**/*.ts",
     "**/*.mjs",

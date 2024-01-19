@@ -64,6 +64,9 @@ const cjsOutput = {
     if (id.includes('node_modules/react-i18next')) {
       return 'react-i18next.cjs'
     }
+    if (id.includes('node_modules/@himalaya-ui/core')) {
+      return 'himalaya-ui-core.cjs'
+    }
   },
   chunkFileNames: '[name].js',
   globals,
